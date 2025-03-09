@@ -62,9 +62,9 @@ const pageData = [
     {
         hero: {
             title: 'Application Design & Development',
-            subtitle: 'Rank high, convert better!',
+            subtitle: 'Innovative Solutions for Seamless User Experiences',
             description:
-                'Looking to maximize your digital presence? We prioritize high-quality content, that is relevant and engaging to both users and search engines.',
+                'Build high-performance, user-centric applications that blend seamless functionality with intuitive design. From concept to deployment, we ensure your app stands out.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -82,9 +82,9 @@ const pageData = [
     {
         hero: {
             title: 'Website Design & Development',
-            subtitle: 'Delivering IT solutions that enable you to work smarter.',
+            subtitle: 'Crafting websites that engage and convert',
             description:
-                'Innovation at its best? We’ve got you covered! Our processes are streamlined, resources optimized, and results-driven.',
+                'Design responsive and visually stunning websites optimized for user experience and performance to drive growth and engagement.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -104,7 +104,7 @@ const pageData = [
             title: 'Digital Marketing',
             subtitle: 'Rank high, convert better!',
             description:
-                'Looking to maximize your digital presence? We prioritize high-quality content, that is relevant and engaging to both users and search engines.',
+                'Implement data-driven digital marketing strategies to boost visibility, attract targeted traffic, and enhance conversions.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -122,9 +122,9 @@ const pageData = [
     {
         hero: {
             title: 'AI & Automation Solutions',
-            subtitle: 'Brand Identity',
+            subtitle: 'Innovating with AI for smarter decisions',
             description:
-                'Delivering IT solutions that enable you to work smarter.',
+                'Leverage AI-driven solutions for automation, predictive analytics, and process optimization to transform business operations.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -142,9 +142,9 @@ const pageData = [
     {
         hero: {
             title: 'Cybersecurity Services',
-            subtitle: 'Brand Identity',
+            subtitle: 'Safeguarding your digital assets',
             description:
-                'Delivering IT solutions that enable you to work smarter.',
+                'Implement comprehensive security measures to protect your business from evolving threats and ensure data integrity.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -162,9 +162,9 @@ const pageData = [
     {
         hero: {
             title: 'E-commerce Solutions',
-            subtitle: 'Brand Identity',
+            subtitle: 'Powering seamless online shopping',
             description:
-                'Delivering IT solutions that enable you to work smarter.',
+                ' Develop scalable and secure e-commerce platforms with intuitive designs and smooth user experiences to maximize sales.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -182,8 +182,8 @@ const pageData = [
     {
         hero: {
             title: 'UI - UX DESIGN',
-            subtitle: 'Brand Identity, Delivering IT solutions that enable you to work smarter.',
-            description: 'At ligula justo morbi sagittis fusce. Accumsan magna habitant non habitasse litora etiam torquent. Placerat lobortis volutpat efficitur elementum sagittis leo amet euismod tristique.',
+            subtitle: 'Designing experiences that captivate users.',
+            description: 'Create user-centric designs that balance aesthetics and functionality, ensuring seamless interactions and enhanced user satisfaction.',
             buttonText: 'Get In Touch',
             image: pcImage,
         },
@@ -192,6 +192,26 @@ const pageData = [
             descriptions: [
                 'We create intuitive UI/UX designs that enhance user experiences and drive engagement. This includes user-centric interfaces, seamless navigation, and responsive designs for all devices.',
                 'Our services cover wireframing, prototyping, user research, and usability testing to deliver visually appealing, functional, and engaging digital experiences that meet user needs and business goals.'
+            ],
+            features: commonFeatures,
+            featureCard: commonFeatureCard,
+            downloadButtonText: commonButtonText,
+        }
+    },
+
+    {
+        hero: {
+            title: 'Brand Identity',
+            subtitle: 'Building brands that resonate',
+            description: 'Craft a compelling brand identity with impactful visuals and messaging to establish trust and recognition in your market.',
+            buttonText: 'Get In Touch',
+            image: pcImage,
+        },
+        learnMore: {
+            title: 'Descriptions',
+            descriptions: [
+               'Id blandit facilisis dolor natoque parturient nostra pharetra himenaeos et litora. Himenaeos nascetur vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede montes sociosqu vulputate ornare mattis posuere. Sit nunc purus netus urna letius.',
+                'Id blandit facilisis dolor natoque parturient nostra pharetra himenaeos et litora. Himenaeos nascetur vestibulum finibus porttitor ut leo. Finibus commodo class letius feugiat pede montes sociosqu vulputate ornare mattis posuere. Sit nunc purus netus urna letius.'
             ],
             features: commonFeatures,
             featureCard: commonFeatureCard,
@@ -246,8 +266,10 @@ const LearnMorePage = () => {
                 <div className="hero-content container">
                     <div className="hero-text" data-aos="fade-right">
                         <h4 style={{ paddingBottom: '15px', color: '#0a57f0' }}>{serviceData.hero.title}</h4>
+                        
                         <h2>
-                            {serviceData.hero.subtitle}
+                            {serviceData.hero.subtitle }
+                            <br/>
                             <br />
                             {serviceData.hero.description}
                         </h2>

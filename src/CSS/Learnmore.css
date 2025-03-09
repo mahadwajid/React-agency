@@ -32,9 +32,9 @@
   
   }
   .hero-text h2 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
     margin-bottom: 20px;
+    font-weight: normal;
     color: white;
   }
   .hero-text p {
@@ -82,10 +82,12 @@
   }
   .description {
     font-size: small;
+
     color: #ccc;
     margin-bottom: 20px;
     text-align: start;
   }
+  
   .curved-line {
     width: 100%;
     height: 2px;
