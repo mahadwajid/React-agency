@@ -1,0 +1,205 @@
+/* Services Section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0%;
+    background-color: #0A0314;
+    color: white;
+    top: 0px !important;
+    
+  }
+
+.services {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .services-heading {
+    width: 100%;
+    height: 150px;
+    /* Adjust based on need */
+    background: radial-gradient(44.58% at 55.42% 50%, #5E81C4 50%, #0B0119 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services-heading h2 {
+    color: #104581;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 40px;
+    padding: 0 12.5%;
+}
+
+  .service-card-outline {
+    width: 360px;
+    height: 430px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .service-card-outline:hover {
+    transform: translateY(-5px);
+  }
+
+  .service-card {
+    background: radial-gradient(ellipse at 52.73% 53.5%, #0B0119 0%, #5E81C4 250%);
+    border: 2px solid transparent;
+    box-shadow: 0 0 2px #272727, 0 0 4px rgba(39, 39, 39, 0.5);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+    height: 95%;
+    position: relative;
+    top: 10px;
+    left: 8px;
+  }
+
+  .service-card .service-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  .service-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .service-card p {
+    font-size: 14px;
+    color: #ccc;
+
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .service-card button {
+    color: white;
+    background: linear-gradient(135deg, #00467f, #a5cc82);
+    /* Gradient background */
+    border: none;
+    font-weight: bold;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+  }
+
+  .service-card button:hover {
+    background: linear-gradient(135deg, #00467f, #a5cc82);
+    /* Gradient background */
+    box-shadow: 0 0 15px 5px rgba(165, 204, 130, 0.8);
+    /* Glow effect */
+  }
+
+  @media (max-width: 1024px) {
+    .service-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+      gap: 20px;
+      padding: 0 8%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      padding: 40px 0;
+    }
+  
+    .services-heading h2 {
+      font-size: 24px; /* Smaller font size */
+    }
+  
+    .service-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Stack on smaller screens */
+      gap: 40px;
+    }
+  
+    .service-card-outline {
+      width: 100%;
+      height: 270px; /* Allow flexible height */
+    }
+  
+    .service-card {
+      padding: 20px;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+    }
+  
+    .service-card h3 {
+      font-size: 16px;
+    }
+  
+    .service-card p {
+      font-size: 12px;
+      margin-bottom: 15px;
+    }
+  
+    .service-card button {
+      font-size: 12px;
+      padding: 6px 12px;
+      top: auto;
+      bottom: 10px; /* Adjust button position */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-heading {
+      height: 120px; /* Reduce height */
+    }
+  
+    .services-heading h2 {
+      font-size: 20px;
+    }
+  
+    .service-grid {
+      grid-template-columns: 1fr; /* Single column layout */
+    }
+  
+    .service-card-outline {
+      width: 100%;
+    }
+  
+    .service-card {
+      padding: 15px;
+    }
+  
+    .service-card h3 {
+      font-size: 14px;
+    }
+  
+    .service-card p {
+      font-size: 11px;
+    }
+  
+    .service-card button {
+      font-size: 11px;
+      padding: 5px 10px;
+    }
+  }
+  
