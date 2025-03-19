@@ -67,6 +67,7 @@
     padding: 20px;
     background-color: #0A0314;
     border-radius: 12px;
+    gap: 9%;
     
   }
   .learnMoreText {
@@ -161,6 +162,7 @@
 
 .download-btn:hover {
     opacity: 0.9;
+    box-shadow: 0px 4px 20px rgba(196, 94, 162, 0.8);
 }
 
 /* Responsive CSS for Hero and Learn More sections */

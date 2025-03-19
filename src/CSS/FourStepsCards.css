@@ -1,125 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0%;
-    background-color: #0A0314;
-    color: white;
-    top: 0px !important;
-}
-
-.four-steps {
-    margin: 4% 0;
-}
-
-.four-steps h2 {
-    color: #104581;
-    font-weight: bold;
-    font-size: 26px;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .four-steps h3 {
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .steps-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  
-  .step-card {
-    background: transparent;
-    border: none;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    width: 250px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    text-align: center;
-  }
-  
-  .card-logo-container {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1E1F41;
-  }
-  
-  .card-logo-container img {
-    width: 60%;
-    height: auto;
-  }
-  
-  .step-card h4 {
-    margin: 20px 0 10px;
-    font-size: 18px;
-  }
-  
-  .step-card p {
-    font-size: 14px;
-    color: #ccc;
-    margin-bottom: 20px;
-    text-align: center;
-    line-height: 1.5;
-  }
-  
-  .step-card button {
-    color: white;
-    background: linear-gradient(135deg, #00467f, #a5cc82);
-    border: none;
-    font-weight: bold;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 14px;
-    cursor: pointer;
-    position: absolute;
-    bottom: 20px;
-  }
-  
-  .step-card button:hover {
-    background: linear-gradient(135deg, #00467f, #a5cc82);
-    box-shadow: 0 0 15px 5px rgba(165, 204, 130, 0.8);
-  }
-  
-  .step-card-divider {
-    width: 2px;
-    height: 350px;
-    background-color: #5B5959;
-    margin: 0 20px;
-  }
-
-   */
-  
-  /* @media (max-width: 900px) {
-    .steps-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .step-card-divider {
-      display: none;
-    }
-  } */
-  
-
   /* General Styles */
 * {
     margin: 0;
@@ -133,6 +11,12 @@ body {
     background-color: #0A0314;
     color: white;
     top: 0px !important;
+}
+
+.fs-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .four-steps {

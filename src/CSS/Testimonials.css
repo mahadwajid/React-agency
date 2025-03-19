@@ -6,6 +6,7 @@
   }
   .testimonials h4 {
     margin-bottom: 15px;
+    font-size: 20px;
   }
   
   .testimonials .section-title {
@@ -17,8 +18,9 @@
   
   .testimonial-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
   }
   
   .testimonial-card {

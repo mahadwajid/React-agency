@@ -71,7 +71,7 @@ function Navbar() {
             </ScrollLink>
           </li>
           <li><Link to="/ContactPage" className="navbar-link">Contact Us</Link></li>
-          <li><Link to="#" className="navbar-link navbar-get-started">Get Started</Link></li>
+          <li><Link to="/ContactPage" className="navbar-link navbar-get-started">Get Started</Link></li>
 
           {/* Language Switcher */}
           <li className="language-switcher">

@@ -12,13 +12,13 @@ function ContactUsPage() {
     <div>
         <Navbar />
     <div className="mainBodyContact">
-      <h1 className="contact-title">Contact</h1>
+      <h1 className="contact-title">Contact us</h1>
       <p className="contact-text">
         We're excited to work with you soon! Please drop an email with your details & requirements to
         <br />
         <span className="contact-email">shahana@react.com</span>
       </p>
-      <div className="curved-line"></div>
+      {/* <div className="curved-line"></div> */}
     </div>
     <ContactSection />
     <Footer />

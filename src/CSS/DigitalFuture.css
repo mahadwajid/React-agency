@@ -32,6 +32,8 @@
     justify-content: center;
     gap: 40px;
     width: 100%; /* Ensure container takes full width */
+    margin-right: 8%;
+
   }
   
   .digital-future-text {
@@ -43,6 +45,8 @@
     color: #104581;
     font-size: 22px;
     margin-bottom: 10px;
+ 
+  
   }
   
   .digital-future-text h3 {
@@ -52,7 +56,7 @@
   }
   
   .digital-future-text p {
-    width: 20rem;
+    width: 25rem;
   }
   
   .digital-horizon-container {
@@ -251,7 +255,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 15px;
     width: 120%;
   }
   
