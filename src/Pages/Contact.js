@@ -90,32 +90,35 @@ const ContactSection = () => {
 
       {/* Right Side: Contact Form */}
       <div className="contact-form" data-aos="fade-left">
+    
         <h3>Send us a message</h3>
         <p>You can also fill this form & we’ll get back in 2 business days.</p>
-        <form className="main-form">
+        <form className="main-form"
+         action= "https://formspree.io/f/xnnpjkwr"
+         method="POST">
           <div className="form-group">
             <div className="input-fields">
               <label>Your Name</label>
-              <input type="text" required />
+              <input type="text" name="Name" required />
             </div>
             <div className="input-fields">
               <label>Your Organization Name</label>
-              <input type="text" required />
+              <input type="text" name="Organization_name" required />
             </div>
           </div>
           <div className="form-group">
             <div className="input-fields">
               <label>Your Number</label>
-              <input type="text" required />
+              <input type="text" name="Number"required />
             </div>
             <div className="input-fields">
               <label>Your Email</label>
-              <input type="email" required />
+              <input type="email" name="Email"required />
             </div>
           </div>
           <div className="single-div">
             <label>Website/Social Media Link</label>
-            <input type="text" />
+            <input type="text" name="Web_Link"/>
           </div>
           <div className="single-div">
             <label>Which services are you interested in?</label>
@@ -127,14 +130,16 @@ const ContactSection = () => {
               placeholder="Select services..."
               className="react-select-container"
               classNamePrefix="custom-select"
+              name="Services"
+
             />
 
           </div>
           <div className="single-div">
             <label>What's on your Mind?</label>
-            <textarea rows="4"></textarea>
+            <textarea rows="4" name="Message"></textarea>
           </div>
-          <button type="submit" className="contact-form-btn">
+          <button type="submit" value="send" className="contact-form-btn">
             SEND MESSAGE
           </button>
         </form>
